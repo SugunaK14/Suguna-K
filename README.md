@@ -14,7 +14,9 @@ A  div  to display the results
 We can then select these HTML elements and store references to them in variables like so:
 
 const question = document.getElementById('currentquestion');
+
 const quizscreen = document.getElementById('resultscreen');
+
 const Button = document.getElementById('submit');
 
 Next we’ll need to build a quiz, show results, and put it all together. 
@@ -23,7 +25,9 @@ We can start by laying out our functions, and we’ll fill them in as we go:
 
 Here, we have functions to build the quiz and show the results. We’ll run our quizquestions function immediately, and we’ll have our resultscreen function run when the user clicks the submit button.
 
-The next thing our quiz needs is some questions to display. We’ll use object literals to represent the individual questions and an array to hold all of the questions that make up our quiz. Using an array will make the questions easy to iterate over
+The next thing our quiz needs is some questions to display. We’ll use object literals to represent the individual questions and an array to hold all of the questions that make up our quiz. 
+
+Using an array will make the questions easy to iterate over
 
 First, we create an output variable to contain all the HTML output including questions and answer choices.
 
