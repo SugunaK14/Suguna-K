@@ -14,3 +14,5 @@ We can then select these HTML elements and store references to them in variables
 const quizContainer = document.getElementById('quiz');
 const resultsContainer = document.getElementById('results');
 const submitButton = document.getElementById('submit');
+
+Next we’ll need to build a quiz, show results, and put it all together. We can start by laying out our functions, and we’ll fill them in as we go:
