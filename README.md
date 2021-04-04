@@ -11,8 +11,8 @@ A  <div> to display the results
   
 We can then select these HTML elements and store references to them in variables like so:
 
-const question = document.getElementById('quiz');
-const quizscreen = document.getElementById('results');
+const question = document.getElementById('currentquestion');
+const quizscreen = document.getElementById('resultscreen');
 const Button = document.getElementById('submit');
 
 Next we’ll need to build a quiz, show results, and put it all together. 
