@@ -5,11 +5,11 @@ Created a multiple choice quiz using javascript,In this quiz,the user will have 
 
 To set up the structure of our JavaScript quiz, we’ll need to start with the following HTML:
 
-A  div  to hold the quiz
+A  < div > to hold the quiz
 
-A  button  to submit the quiz
+A < button > to submit the quiz
 
-A  div  to display the results
+A  < div >  to display the results
   
 We can then select these HTML elements and store references to them in variables like so:
 
