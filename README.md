@@ -11,13 +11,15 @@ A <div> to display the results
   
 We can then select these HTML elements and store references to them in variables like so:
 
-const quizContainer = document.getElementById('quiz');
-const resultsContainer = document.getElementById('results');
-const submitButton = document.getElementById('submit');
+const question = document.getElementById('quiz');
+const quizscreen = document.getElementById('results');
+const Button = document.getElementById('submit');
 
-Next we’ll need to build a quiz, show results, and put it all together. We can start by laying out our functions, and we’ll fill them in as we go:
+Next we’ll need to build a quiz, show results, and put it all together. 
 
-Here, we have functions to build the quiz and show the results. We’ll run our buildQuiz function immediately, and we’ll have our showResults function run when the user clicks the submit button.
+We can start by laying out our functions, and we’ll fill them in as we go:
+
+Here, we have functions to build the quiz and show the results. We’ll run our quizquestions function immediately, and we’ll have our resultscreen function run when the user clicks the submit button.
 
 The next thing our quiz needs is some questions to display. We’ll use object literals to represent the individual questions and an array to hold all of the questions that make up our quiz. Using an array will make the questions easy to iterate over
 
@@ -27,10 +29,13 @@ Next, we can start building the HTML for each question. We’ll need to loop thr
 
 For each question, we’ll want to generate the correct HTML, and so our first step is to create an array to hold the list of possible answers.
 
-At this point, we want to build out our showResults function to loop over the answers, check them, and show the results.
+At this point, we want to build out our resultscreen function to loop over the answers, check them, and show the results.
 
 First, we select all the answer containers in our quiz’s HTML. Then we’ll create variables to keep track of the user’s current answer and the total number of correct answers.
 
 Now we can loop through each question and check the answers.
 
-Once the answer-checking loop is finished, we can show how many questions the user got right:
+Once the answer-checking loop is finished, we can show how many questions the user got right.
+
+
+ Thank You
